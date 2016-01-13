@@ -1,9 +1,9 @@
 <?php
 /**
- * This the basic file for displaying pages.
+ * This the basic file for displaying posts.
  *
  * index.php
  */
 
  ?>
- <h1> Smyth Designs</h1>
+ <p> This is the blog page</p>
