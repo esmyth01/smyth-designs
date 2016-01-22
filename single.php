@@ -1,9 +1,35 @@
-<?php
-/**
- * This the basic file for displaying single posts.
- *
- * single.php
- */
+<?php get_header(); ?>
 
- ?>
- <p>this is a single post</p>
+
+
+  <div class="main-content">
+
+    <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
+
+
+          <?php the_content(); ?>
+
+
+        <?php endwhile; endif;  //end loop?>
+
+
+
+
+    <!--start single-sidebar-->
+
+    <div class="single-sidebar">
+
+
+    </div>
+
+    <!--end single-sidebar-->
+
+
+  </div>
+  <!--end main-content-->
+
+</div>
+<!--end wrapper-->
+
+
+<?php get_footer(); ?>

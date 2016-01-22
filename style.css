@@ -7,3 +7,165 @@ Author URI: http://smythdesigns.com
 Description: This is the theme for smythdesigns.com a portfolio for Evan Smyth
 Version: 1.0
 */
+
+
+* {
+
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+
+  line-height: 1.5em;
+
+}
+
+p {
+
+  margin-bottom: .75em;
+
+}
+
+img {
+
+  max-width:100%;
+
+}
+
+.wrapper {
+
+  width:100%;
+  max-width: 64em; /*1024px*/
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.main-content {
+
+  width: 100%;
+
+}
+
+/*Begin Nav*/
+
+#nav-box {
+
+  width:100%;
+  background: #323640;
+
+}
+
+div.menu-main-container {
+
+  width:100%;
+  margin: 0 auto;
+  background: #323640;
+  height: 50px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+}
+
+#menu-main {
+
+  text-align: center;
+  margin: auto;
+  max-width: 64em;
+
+}
+
+#menu-main > li {
+
+  font-weight:400;
+  font-size: 1.125em;
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  width:16%;
+  float:left;
+  line-height:50px;
+  text-align:center;
+
+}
+
+#menu-main li.wide {
+
+  width:20%;
+
+}
+
+#menu-main > li a {
+
+  text-decoration: none;
+
+}
+
+#menu-main > li a.current {
+
+  background: #5B6470;
+  color: #fff;
+
+}
+
+#menu-main ul li:hover a {
+
+  background: #5B6470;
+  color: #0791bf;
+
+}
+
+#menu-main > li a {
+
+  display: block;
+  color: #fff;
+
+}
+
+#menu-main > li:hover a {
+
+  background: #5B6470;
+  color: #fff;
+
+}
+
+
+#menu-main ul.sub-menu {
+
+  text-align: left;
+  position: absolute;
+  display: none;
+  background-color: #5B6470;
+  z-index: 20;
+  top: 98%;
+  width:100%;
+  text-align: center;
+
+}
+
+#menu-main ul.sub-menu li {
+
+  display: block;
+  float: none;
+  font-size: 1em;
+  position: relative;
+
+}
+
+#menu-main ul.sub-menu li a {
+
+}
+
+
+
+#menu-main li:hover > ul.sub-menu{
+
+  display: block;
+
+}
+
+/*End Nav*/
