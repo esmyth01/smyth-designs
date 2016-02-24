@@ -10,7 +10,7 @@
 
 <!--Start wp head-->
 
-
+<?php wp_head()?>
 
 
 <!--End wp head-->

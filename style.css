@@ -169,3 +169,130 @@ div.menu-main-container {
 }
 
 /*End Nav*/
+
+/*Start Flexslider*/
+
+.flexslider {
+
+
+}
+
+section {
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  width: 69%;
+  float: left;
+
+}
+
+.homepage-sidebar {
+
+  width: 29.5%;
+  float: right;
+  margin-top: 1em;
+
+}
+
+.homepage-projects {
+
+  width: 100%;
+
+}
+
+.homepage-projects ul {
+
+  list-style-type: none;
+  text-align: center;
+
+
+}
+
+.homepage-projects li {
+
+  margin-top: 1em;
+
+
+}
+
+
+.homepage-projects a {
+
+  text-decoration: none;
+  color: #2995C1;
+  text-align: center;
+
+}
+
+.homepage-projects ul li a:hover {
+
+  color: #1D4272;
+
+}
+
+.homepage-projects-h3 {
+
+  width: 100%;
+  border-bottom: 4px solid #2995C1;
+  font-family:'Oswald', sans-serif;
+  color: #1D4272;
+  text-align: center;
+
+}
+
+.homepage-websites {
+
+  width: 100%;
+  height: 300px;
+  background: orange;
+  margin-top: 1em;
+  width: 69%;
+  float: left;
+
+
+}
+
+.homepage-applications {
+
+  width: 100%;
+  height: 300px;
+  background: orange;
+  margin-top: 1em;
+  width: 69%;
+  float: left;
+
+}
+
+.homepage-research {
+
+  width: 100%;
+  height: 300px;
+  background: orange;
+  margin-top: 1em;
+  width: 69%;
+  float: left;
+
+}
+
+.homepage-case-studies {
+
+  width: 100%;
+  height: 300px;
+  background: orange;
+  margin-top: 1em;
+  width: 69%;
+  float: left;
+
+}
+
+
+
+footer {
+
+  clear: both;
+  background: #323640;
+  height: 160px;
+  width: 100%;
+
+}

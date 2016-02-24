@@ -1,3 +1,6 @@
+</div><!--end main-content-->
+</div><!--end wrapper-->
+
 <footer>
 
 </footer>
