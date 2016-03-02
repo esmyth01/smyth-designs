@@ -21,19 +21,22 @@
 
       </section>
 
+      <!--Start homepage sidebar-->
+
+
       <div class="homepage-sidebar">
 
-        <div class="sidebar-project-categories">
+        <div class="homepage-sidebar-project-categories">
 
-              <div class="sidebar-h3"><h3>Project Categories</h3></div>
+              <div class="homepage-sidebar-h3"><h3>Project Categories</h3></div>
 
               <ul>
                 <?php wp_list_categories( 'title_li' ); ?>
               </ul>
             </div>
 
-            <div class="homepage-widget-item">
-      <div class="sidebar-h3"><h3>Latest Projects</h3></div>
+            <div class="homepage-sidebar-widget-item">
+      <div class="homepage-sidebar-h3"><h3>Latest Projects</h3></div>
       <ul>
 
         <?php rewind_posts(); ?>
@@ -51,17 +54,17 @@
 
     </div>
 
-    <div class="homepage-photography">
+    <div class="homepage-sidebar-photography">
 
-      <div class=sidebar-h3><h3><a href="<?php echo get_permalink( get_page_by_path( 'photography' ) ) ?>">Photography</a></h3></div>
+      <div class="homepage-sidebar-h3"><h3><a href="<?php echo get_permalink( get_page_by_path( 'photography' ) ) ?>">Photography</a></h3></div>
 
 
       <?php $query = new WP_Query( array( "name" => "photography", "post_type" => "page" ));  ?>
 
       <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-        <div class="homepage-photography-image"><?php the_post_thumbnail( 'medium' ); ?></div>
-        <div class="homepage-photography-p"><?php echo get_excerpt(); ?></div>
+        <div class="homepage-sidebar-photography-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+        <div class="homepage-sidebar-photography-p"><?php echo get_excerpt(); ?></div>
 
 
 
@@ -73,18 +76,69 @@
 
 
       </div><!--end homepage-sidebar-->
+<!--Start main content homepage-->
 
-      <div class="homepage-websites">
+      <div class="homepage-main-content">
+
+<div class="homepage-main-content-h3"><h3>Websites</h3></div>
+        <div class="homepage-main-content-inner">
+          <?php $query = new WP_Query( array( "category_name" => "websites", "post_type" => "post", "posts_per_page" => 1));  ?>
+
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'medium' ); ?>
+          <p><?php echo get_excerpt(); ?></p>
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
+        </div>
+        <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "category_name" => "websites", "post_type" => "post", "posts_per_page" => 1, "offset" => 1));  ?>
+
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'medium' ); ?>
+          <p><?php echo get_excerpt(); ?></p>
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
+
+        </div>
+
       </div>
 
-      <div class="homepage-applications">
+      <div class="homepage-main-content">
+
+        <div class="homepage-main-content-inner">
+        </div>
+        <div class="homepage-main-content-inner">
+        </div>
+
       </div>
 
-      <div class="homepage-research">
+      <div class="homepage-main-content">
+
+        <div class="homepage-main-content-inner">
+        </div>
+        <div class="homepage-main-content-inner">
+        </div>
+
       </div>
 
-      <div class="homepage-case-studies">
+      <div class="homepage-main-content">
+
+        <div class="homepage-main-content-inner">
+        </div>
+        <div class="homepage-main-content-inner">
+        </div>
+
       </div>
+
+      <!--End main content homepage-->
+
+
+
 
 
 
