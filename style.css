@@ -191,8 +191,7 @@ section {
 
 .homepage-main-content {
 
-  height: 300px;
-  background: orange;
+  background: #C0D8E5;
   margin-top: 1em;
   width: 69%;
   float: left;
@@ -210,10 +209,9 @@ section {
 .homepage-main-content-h3 {
 
   width: 100%;
-  border-bottom: 4px solid #2995C1;
   text-align: center;
   color: #1D4272;
-  margin-bottom: 1em;
+  margin: .5em 0 1em;
 
 }
 

@@ -78,6 +78,8 @@
       </div><!--end homepage-sidebar-->
 <!--Start main content homepage-->
 
+
+
       <div class="homepage-main-content">
 
 <div class="homepage-main-content-h3"><h3>Websites</h3></div>
@@ -110,27 +112,113 @@
 
       <div class="homepage-main-content">
 
+        <div class="homepage-main-content-h3"><h3>Design</h3></div>
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "name" => "architecture", "post_type" => "page" ));  ?>
+
+          <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'medium' ); ?>
+            <p><?php echo get_excerpt(); ?></p>
+
+
+
+          <?php endwhile; endif;  //end loop?>
+          <?php wp_reset_postdata() ?>
+
         </div>
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "name" => "logos", "post_type" => "page" ));  ?>
+
+          <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+            <?php the_post_thumbnail( 'medium' ); ?>
+            <p><?php echo get_excerpt(); ?></p>
+
+
+
+          <?php endwhile; endif;  //end loop?>
+          <?php wp_reset_postdata() ?>
+
         </div>
 
       </div>
 
       <div class="homepage-main-content">
 
+        <div class="homepage-main-content-h3"><h3>Development</h3></div>
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "name" => "php", "post_type" => "page" ));  ?>
+
+          <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+            <?php the_post_thumbnail( 'medium' ); ?>
+            <p><?php echo get_excerpt(); ?></p>
+
+
+
+          <?php endwhile; endif;  //end loop?>
+          <?php wp_reset_postdata() ?>
+
+
+
         </div>
+
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "name" => "javascript", "post_type" => "page" ));  ?>
+
+          <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+            <?php the_post_thumbnail( 'medium' ); ?>
+          <p><?php echo get_excerpt(); ?></p>
+
+
+
+          <?php endwhile; endif;  //end loop?>
+          <?php wp_reset_postdata() ?>
+
         </div>
 
       </div>
 
       <div class="homepage-main-content">
 
+        <div class="homepage-main-content-h3"><h3>Research</h3></div>
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "category_name" => "research", "post_type" => "post", "posts_per_page" => 1));  ?>
+
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'medium' ); ?>
+          <p><?php echo get_excerpt(); ?></p>
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
+
         </div>
+
         <div class="homepage-main-content-inner">
+
+          <?php $query = new WP_Query( array( "category_name" => "research", "post_type" => "post", "posts_per_page" => 1, "offset" => 1));  ?>
+
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'medium' ); ?>
+          <p><?php echo get_excerpt(); ?></p>
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
+
         </div>
 
       </div>
