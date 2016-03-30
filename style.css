@@ -387,7 +387,122 @@ footer {
 
   clear: both;
   background: #323640;
-  height: 160px;
   width: 100%;
+  margin-top: 2em;
+  overflow: hidden;
+
+}
+
+.footer-content {
+
+max-width: 64em;
+margin: auto;
+
+}
+.footer-content a {
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content a:hover {
+
+  color: #0791bf;
+}
+
+.footer-content h4 {
+
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-content li {
+
+list-style-type: none;
+
+}
+
+.footer-inner {
+
+float: left;
+width: 32%;
+
+}
+
+.footer-inner:nth-child(n + 2) {
+
+  margin-left: 2%;
+}
+
+.footer-inner:nth-child(1) h4 {
+
+padding-left: 1em;
+
+
+}
+
+.footer-inner:nth-child(1) li:before {
+
+content: "-   ";
+color: #fff;
+
+}
+
+.footer-inner:nth-child(2) {
+
+text-align: center;
+
+}
+
+.footer-inner:nth-child(3) {
+
+text-align: center;
+
+
+
+}
+
+.footer-inner:nth-child(3) h4, .footer-inner:nth-child(3) li {
+
+padding-left: 10em;
+
+
+
+}
+
+.menu-footer-menu-container {
+
+
+
+
+}
+
+
+.menu-footer-menu-container ul {
+
+
+
+
+}
+
+.menu-footer-menu-container ul li {
+
+list-style-type: none;
+padding-left: 1em;
+
+
+
+}
+
+
+
+
+
+.footer-right {
+
+float: right;
+background: orange;
+width: 33%;
+height: 100%;
 
 }
