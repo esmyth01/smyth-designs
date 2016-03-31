@@ -179,6 +179,8 @@ div.menu-main-container {
 
 /*End Flexslider*/
 
+/*Start Homepage main content*/
+
 section {
 
   margin-top: 1em;
@@ -242,9 +244,36 @@ section {
 
 }
 
+/*End Homepage main content*/
+
+/*Start Page main content*/
+
+.page-list-child {
+
+margin-top: 1em;
+
+}
+
+.page-list-child img {
+clear: both;
+float: left;
+
+
+}
+
+ .page-list-child a {
+float: left;
+
+}
+
+.page-list-child p {
+float: left;
+
+}
 
 
 
+/*End Page main content*/
 
 /*Start Homepage Sidebar*/
 
@@ -372,6 +401,71 @@ margin-top: .7em;
 
 
 /*End Homepage Sidebar*/
+
+
+/*Start Page Sidebar*/
+
+.child-page-sidebar ul {
+
+  list-style: none;
+  font-size: 1em;
+}
+
+.child-page-sidebar ul li {
+
+  line-height: 3em;
+  margin: 1em 0 1em;
+  background: #323640;
+  border-radius: 5px;
+
+}
+
+.child-page-sidebar ul li a {
+
+  text-decoration: none;
+  color: #fff;
+  padding:.5em;
+  font-weight: 700;
+  padding: .5em;
+
+}
+
+.child-page-sidebar ul li:hover {
+
+  background: green;
+
+
+}
+
+.child-page-sidebar ul li a:hover {
+
+  color: #2995C1;
+
+}
+
+.child-page-sidebar h3 {
+
+margin: 0;
+color: #1D4272;
+
+}
+
+.child-page-sidebar h3:before {
+
+content: "~   ";
+
+}
+
+.child-page-sidebar h3:after {
+
+content: "   ~";
+
+}
+
+
+
+/*End Page Sidebar*/
+
 
 
 
