@@ -22,7 +22,7 @@
 
         <a href="<?php echo  get_permalink($pageChild->ID); ?>" rel="bookmark" title="<?php echo $pageChild->post_title; ?>">  <?php echo get_the_post_thumbnail($pageChild->ID, 'medium'); ?></a>
 
-        <p> <?php the_excerpt(); ?></p>
+        <p> <?php echo substr(get_the_content(), 0,200); ?>...</p>
         <a href="<?php echo  get_permalink($pageChild->ID); ?>" class="read-more" rel="bookmark" title="<?php echo $pageChild->post_title; ?>">Read More >>></a>
 
         </div>

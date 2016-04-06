@@ -312,9 +312,23 @@ color: #1D4272;
 
 }
 
+.page-list-child small {
+
+  float: left;
+}
+
+
 
 
 /*End Page main content*/
+
+/*Start Post main content*/
+
+
+
+
+
+/*End Post main content*/
 
 /*Start Homepage Sidebar*/
 
@@ -491,13 +505,13 @@ color: #1D4272;
 
 }
 
-.child-page-sidebar h3:before {
+.child-page-sidebar-h3 h3:before {
 
 content: "~   ";
 
 }
 
-.child-page-sidebar h3:after {
+.child-page-sidebar-h3 h3:after {
 
 content: "   ~";
 
