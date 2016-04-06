@@ -251,23 +251,64 @@ section {
 .page-list-child {
 
 margin-top: 1em;
+overflow: hidden;
 
 }
 
 .page-list-child img {
+
 clear: both;
 float: left;
+border: 2px solid black;
+margin: 1em 0;
 
 
 }
 
- .page-list-child a {
-float: left;
+.page-list-child h3 {
+
+color: #1D4272;
+
 
 }
+
+.page-list-child h3 a:hover {
+
+color: #2995C1;
+
+}
+
+.page-list-child a {
+
+text-decoration: none;
+
+}
+
+.page-list-child a:hover {
+
+color: #1D4272;
+
+}
+
+
 
 .page-list-child p {
+
 float: left;
+
+}
+
+.read-more {
+
+float: right!important;
+border-radius: 8px;
+color: #2995C1;
+text-decoration: none;
+
+}
+
+.read-more:hover {
+color: #1D4272;
 
 }
 
@@ -468,7 +509,7 @@ content: "   ~";
 
 
 
-
+/*Start Footer*/
 
 
 
@@ -600,3 +641,5 @@ width: 33%;
 height: 100%;
 
 }
+
+/*End Footer*/

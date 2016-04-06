@@ -13,16 +13,18 @@
         <?php endwhile; endif;  //end loop?>
 
 
-        <?php
-        $child_pages = $wpdb->get_results("SELECT *  FROM $wpdb->posts WHERE post_parent = ".$post->ID."    AND post_type = 'page' ORDER BY menu_order", 'OBJECT');    ?>
+        <?php $child_pages = $wpdb->get_results("SELECT *  FROM $wpdb->posts WHERE post_parent = ".$post->ID."    AND post_type = 'page' ORDER BY menu_order", 'OBJECT'); ?>
         <?php if ( $child_pages ) : foreach ( $child_pages as $pageChild ) : setup_postdata( $pageChild ); ?>
 
         <div class="page-list-child">
 
-          <a href="<?php echo  get_permalink($pageChild->ID); ?>" rel="bookmark" title="<?php echo $pageChild->post_title; ?>"><?php echo $pageChild->post_title; ?></a>
-          <?php echo get_the_post_thumbnail($pageChild->ID, 'medium'); ?>
+          <h3><a href="<?php echo  get_permalink($pageChild->ID); ?>" rel="bookmark" title="<?php echo $pageChild->post_title; ?>"><?php echo $pageChild->post_title; ?></a></h3>
 
-        <p> <?php echo get_content(); ?></p>
+        <a href="<?php echo  get_permalink($pageChild->ID); ?>" rel="bookmark" title="<?php echo $pageChild->post_title; ?>">  <?php echo get_the_post_thumbnail($pageChild->ID, 'medium'); ?></a>
+
+        <p> <?php the_excerpt(); ?></p>
+        <a href="<?php echo  get_permalink($pageChild->ID); ?>" class="read-more" rel="bookmark" title="<?php echo $pageChild->post_title; ?>">Read More >>></a>
+
         </div>
         <?php endforeach; endif;
         ?>

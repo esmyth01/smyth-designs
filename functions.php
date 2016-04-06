@@ -107,9 +107,6 @@ return $string;
 }
 
 
-
-//End child pages
-
  //function for excerpt displaying
 
  function get_excerpt(){
