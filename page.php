@@ -3,6 +3,15 @@
 
 
   <div class="main-content">
+
+    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+      <?php if(function_exists('bcn_display'))
+      {
+          bcn_display();
+      }?>
+  </div>
+
+
 <section>
     <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 
@@ -54,6 +63,18 @@
 
 
           </div>
+
+          <div class="homepage-sidebar-project-categories">
+
+                <div class="homepage-sidebar-h3"><h3>Find Me!</h3></div>
+
+                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="facebook" class="social-image"/></a>
+                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/linkedin.png" alt="linkedin" class="social-image"/></a>
+                  <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/github.png" alt="github" class="social-image"/></a>
+                  <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/email.png" alt="email" class="social-image"/></a>
+
+
+              </div>
 
 
 

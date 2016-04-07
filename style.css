@@ -49,6 +49,21 @@ img {
 
 }
 
+.breadcrumbs {
+padding-top: 2em;
+margin-bottom: 1em;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #2995C1;
+}
+
+.breadcrumbs a:hover {
+color: #1D4272;
+}
+
+
 /*Begin Nav*/
 
 #nav-box {
@@ -453,6 +468,19 @@ margin-top: .7em;
 
 }
 /*End homepage sidebar photography*/
+
+/*Start Sidebar Social*/
+
+.social-image  {
+  margin-left: 1.5em;
+
+
+}
+
+
+
+/*End Sidebar Social*/
+
 
 
 /*End Homepage Sidebar*/

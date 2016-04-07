@@ -71,6 +71,18 @@
       <?php endwhile; endif;  //end loop?>
       <?php wp_reset_postdata() ?>
 
+      <div class="homepage-sidebar-project-categories">
+
+            <div class="homepage-sidebar-h3"><h3>Find Me!</h3></div>
+
+          <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="facebook" class="social-image"/></a>
+          <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/linkedin.png" alt="linkedin" class="social-image"/></a>
+            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/github.png" alt="github" class="social-image"/></a>
+            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/email.png" alt="email" class="social-image"/></a>
+
+
+          </div>
+
 
     </div>
 
