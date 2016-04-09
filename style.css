@@ -66,7 +66,7 @@ color: #1D4272;
 
 /*Begin Nav*/
 
-#nav-box {
+.nav-box {
 
   width:100%;
   background: #323640;
@@ -154,7 +154,7 @@ div.menu-main-container {
   text-align: left;
   position: absolute;
   display: none;
-  background-color: #5B6470;
+  background: #5B6470;
   z-index: 20;
   top: 98%;
   width:100%;
@@ -184,6 +184,19 @@ div.menu-main-container {
 }
 
 /*End Nav*/
+
+/*Begin Mobile Nav*/
+
+.jquery-nav {
+	max-width: 1024px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.jquery-title {
+
+	display:none;
+}
 
 /*Start Flexslider*/
 
@@ -685,3 +698,149 @@ height: 100%;
 }
 
 /*End Footer*/
+
+
+/* Start Media Queries */
+
+
+
+/* Start Tablet Query */
+
+@media all and (min-width: 668px) and (max-width: 1024px) {
+
+.wrapper {
+
+  width: 100%;
+  box-sizing:border-box;
+
+}
+
+.main-content {
+
+  padding:0 1em;
+  box-sizing:border-box;
+
+}
+
+
+
+
+}
+
+
+/* Start Mobile Query */
+
+
+
+
+@media all and (min-width: 220px) and (max-width: 667px) {
+
+  #menu-main {
+
+  padding-top: 1.5em;
+  width: 100%;
+  text-align: left;
+  height: auto;
+  background: #323640;
+
+}
+
+
+  .jquery-nav {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.jquery-title {
+
+  display: block;
+  padding: .5em 0px;
+
+}
+
+.jquery-nav .menu-main-container {
+
+  display: none;
+  height: auto;
+
+}
+
+#menu-main > li {
+
+  display: block;
+  width: 100%;
+  text-align: left;
+  text-indent: 2em;
+  background: #323640;
+
+}
+
+#menu-main > li a {
+
+  display: block;
+
+}
+
+.jquery-nav {
+
+  background: #323640;
+
+
+}
+
+.jquery-title {
+
+  padding: 15px 24px;
+  font-size: 1.125em;
+  display: inherit;
+
+}
+
+.jquery-title a {
+
+  color:#fff !important;
+  text-decoration: none;
+
+}
+div.menu-icon {
+
+  float:right;
+
+
+}
+
+
+#menu-main li:hover > ul.sub-menu {
+
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* Begin Mobile Nav */
+
+
+
+
+
+
+
+  /* End Mobile Nav */
+
+
+/* End Mobile Query */
+
+
+/* End Media Queries */
+}
