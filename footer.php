@@ -32,7 +32,7 @@
     <ul>
       <li><a href="http://www.premiumdw.com">PremiumDW</a></li>
       <li><a href="https://thomaswilburn.net">Thomas Wilburn</a></li>
-        
+
 
 
     </ul>
@@ -61,11 +61,11 @@ window.onload = function() {
 
   jQuery(window).resize(function(){
 
-    if (jQuery(window).width() > 667) {
+    if (jQuery(window).width() > 668) {
       jQuery(".menu-main-container").css('display', 'block');
     }
 
-    if (jQuery(window).width() < 667) {
+    if (jQuery(window).width() < 668) {
       jQuery(".menu-main-container").css('display', 'none');
     }
   });

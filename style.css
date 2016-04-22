@@ -205,6 +205,12 @@ div.menu-main-container {
 
 }
 
+.flexslider img {
+
+  width: 100%;
+  height: auto;
+}
+
 /*End Flexslider*/
 
 /*Start Homepage main content*/
@@ -700,6 +706,8 @@ height: 100%;
 /*End Footer*/
 
 
+
+
 /* Start Media Queries */
 
 
@@ -711,14 +719,32 @@ height: 100%;
 .wrapper {
 
   width: 100%;
-  box-sizing:border-box;
 
 }
 
 .main-content {
 
-  padding:0 1em;
-  box-sizing:border-box;
+  padding: 0 1em;
+  width: 100%;
+
+}
+
+section {
+
+  width: 100%;
+
+}
+
+.homepage-sidebar {
+
+  display: none;
+
+}
+
+.homepage-main-content {
+
+width: 100%;
+
 
 }
 
@@ -733,7 +759,34 @@ height: 100%;
 
 
 
-@media all and (min-width: 220px) and (max-width: 667px) {
+@media all and (min-width: 220px) and (max-width: 668px) {
+
+  .wrapper, section, .homepage-main-content, .homepage-main-content-h3, .homepage-main-content-inner, .home-projects-content {
+
+    float: none;
+    width: 100%;
+    margin: 0!important;
+    margin: auto;
+    margin-top: .5em;
+
+
+  }
+
+  .homepage-main-content img {
+
+    width: 80%;
+    height: auto;
+
+  }
+
+
+  .homepage-sidebar {
+
+    display: none;
+
+  }
+
+
 
   #menu-main {
 
