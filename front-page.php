@@ -100,8 +100,8 @@
 
         <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-          <?php the_post_thumbnail( 'medium' ); ?>
-          <p><?php echo get_excerpt(); ?></p>
+          <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
         <?php endwhile; endif;  //end loop?>
         <?php wp_reset_postdata() ?>
@@ -112,8 +112,8 @@
 
         <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-          <?php the_post_thumbnail( 'medium' ); ?>
-          <p><?php echo get_excerpt(); ?></p>
+          <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
         <?php endwhile; endif;  //end loop?>
         <?php wp_reset_postdata() ?>
@@ -132,8 +132,8 @@
 
           <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-          <?php the_post_thumbnail( 'medium' ); ?>
-            <p><?php echo get_excerpt(); ?></p>
+          <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
 
 
@@ -148,8 +148,8 @@
 
           <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-            <?php the_post_thumbnail( 'medium' ); ?>
-            <p><?php echo get_excerpt(); ?></p>
+            <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+            <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
 
 
@@ -170,8 +170,8 @@
 
           <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-            <?php the_post_thumbnail( 'medium' ); ?>
-            <p><?php echo get_excerpt(); ?></p>
+            <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+            <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
 
 
@@ -189,8 +189,8 @@
 
           <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-            <?php the_post_thumbnail( 'medium' ); ?>
-          <p><?php echo get_excerpt(); ?></p>
+            <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
 
 
@@ -211,8 +211,8 @@
 
         <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-          <?php the_post_thumbnail( 'medium' ); ?>
-          <p><?php echo get_excerpt(); ?></p>
+          <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
         <?php endwhile; endif;  //end loop?>
         <?php wp_reset_postdata() ?>
@@ -225,8 +225,8 @@
 
         <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
 
-          <?php the_post_thumbnail( 'medium' ); ?>
-          <p><?php echo get_excerpt(); ?></p>
+          <a href="<?php echo get_permalink($post->ID); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+          <a href="<?php echo get_permalink($post->ID); ?>"><h4><?php the_title();?></h4></a>
 
         <?php endwhile; endif;  //end loop?>
         <?php wp_reset_postdata() ?>

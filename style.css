@@ -220,17 +220,23 @@ section {
   margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 5px;
-  width: 69%;
+  width: 68%;
   float: left;
 
 }
 
 .homepage-main-content {
 
-  background: #C0D8E5;
   margin-top: 1em;
-  width: 69%;
+  width: 68%;
   float: left;
+
+
+}
+
+.homepage-main-content{
+
+margin-bottom: 1em;
 
 
 }
@@ -251,10 +257,20 @@ section {
 
 }
 
+.homepage-main-content-h3 h3 {
+
+text-decoration: underline;
+
+}
+
 .homepage-main-content-inner {
 
   float: left;
   width: 49%;
+  background: #F2F2F2;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(204,213,217,1);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(204,213,217,1);
+  box-shadow: 7px 7px 10px 0px rgba(204,213,217,1);
 
 }
 
@@ -262,12 +278,26 @@ section {
 
   margin-left: 2%;
 
+
 }
 
-.homepage-main-content-inner p {
+.homepage-main-content-inner a {
 
-  text-align: center;
-  margin-top: .5em;
+text-decoration: none;
+text-align: center;
+margin: 0 1em;
+color: #2995C1;
+
+}
+.homepage-main-content-inner a:hover {
+
+color: #1D4272;
+
+}
+
+.homepage-main-content-inner h4 {
+
+
 
 }
 
@@ -275,6 +305,7 @@ section {
 
   display: block;
   margin: auto;
+  border: 2px solid black;
 
 }
 
@@ -371,6 +402,7 @@ color: #1D4272;
   width: 29.5%;
   float: right;
   margin-top: 1em;
+
 
 }
 
