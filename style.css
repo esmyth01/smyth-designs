@@ -789,6 +789,7 @@ width: 100%;
 
 
 
+
 }
 
 
@@ -929,6 +930,27 @@ width: 100%;
     display: none;
 
   }
+
+  .wp-post-image {
+
+    width: 99%;
+    height: auto;
+
+  }
+
+  .page section, .blog section, .cat section, .single section {
+
+    width: 98%;
+    margin: auto!important;
+  }
+
+  .breadcrumbs {
+
+    width: 98%;
+    margin: auto;
+  }
+
+
 
 
 
