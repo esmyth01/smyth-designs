@@ -27,7 +27,7 @@
 
 
 <header>
-
+<img src="<?php bloginfo('template_url'); ?>/images/logo(final).png">
 
 </header>
 

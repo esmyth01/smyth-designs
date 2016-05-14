@@ -34,6 +34,20 @@ img {
 
 }
 
+header {
+
+  max-width: 1024px;
+  margin: auto;
+}
+
+header img {
+
+
+  display: block;
+  margin: auto;
+
+}
+
 .wrapper {
 
   width:100%;
