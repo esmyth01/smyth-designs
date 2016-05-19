@@ -933,12 +933,6 @@ width: 100%;
 
   }
 
-  .homepage-main-content img {
-
-    width: 80%;
-    height: auto;
-
-  }
 
 
   .homepage-sidebar {
@@ -949,7 +943,6 @@ width: 100%;
 
   .wp-post-image {
 
-    width: 99%;
     height: auto;
 
   }
