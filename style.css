@@ -20,11 +20,41 @@ body {
 
   line-height: 1.5em;
 
+
 }
 
 p {
 
   margin-bottom: .75em;
+    font-family: 'josefin_slabregular';
+    font-size: 1.1em;
+
+
+
+
+}
+
+h3 {
+
+  font-family: 'trade_windsregular';
+
+}
+
+h4 {
+
+  font-family: 'ubuntu_titlingbold';
+
+}
+
+
+ul {
+
+  font-family: 'josefin_slabregular';
+}
+
+li {
+
+font-family: 'ubuntu_titlingbold';
 
 }
 
@@ -76,7 +106,42 @@ margin-bottom: 1em;
 .breadcrumbs a:hover {
 color: #1D4272;
 }
+/*Begin Fonts*/
 
+@font-face {
+    font-family: 'trade_windsregular';
+    src: url('fonts/trade-winds-kit/tradewinds-regular-webfont.woff2') format('woff2'),
+         url('fonts/trade-winds-kit/tradewinds-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ubuntu_titlingbold';
+    src: url('fonts/ubuntu-titling-kit/ubuntutitling-bold-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-titling-kit/ubuntutitling-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'josefin_slabregular';
+    src: url('fonts/josefin-slab-kit/josefinslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/josefin-slab-kit/josefinslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+/*End Fonts*/
 
 /*Begin Nav*/
 
@@ -84,11 +149,13 @@ color: #1D4272;
 
   width:100%;
   background: #323640;
+  font-family: 'ubuntu_titlingbold';
 
 }
 
 div.menu-main-container {
 
+  font-family: 'ubuntu_titlingbold';
   width:100%;
   margin: 0 auto;
   background: #323640;
@@ -524,7 +591,7 @@ margin: .7em 0;
 
 .homepage-sidebar-photography .homepage-sidebar-h3 {
 
-margin-top: .7em;
+  margin-top: .7em;
 
 }
 
@@ -532,6 +599,12 @@ margin-top: .7em;
 
   text-decoration: none;
   color: #1D4272;
+
+}
+
+.homepage-sidebar-photography-p {
+
+  font-family: 'josefin_slabregular';
 
 }
 /*End homepage sidebar photography*/
