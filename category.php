@@ -14,7 +14,7 @@
 
     <section>
 
-
+<?php echo category_description( get_category_by_slug('applications')->term_id ); ?>
 
       <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 

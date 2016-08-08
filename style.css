@@ -199,14 +199,17 @@ div.menu-main-container {
 
   text-decoration: none;
 
-}
-
-#menu-main > li a.current {
-
-  background: #5B6470;
-  color: #fff;
 
 }
+
+#menu-main > li a:hover {
+
+  color: #2995C1!important;
+  
+
+}
+
+
 
 #menu-main ul li:hover a {
 
@@ -300,6 +303,11 @@ section {
   border-radius: 5px;
   width: 68%;
   float: left;
+
+}
+
+section p:first-of-type {
+margin-bottom: 4em;
 
 }
 
@@ -653,15 +661,14 @@ margin: .7em 0;
 
   text-decoration: none;
   color: #fff;
-  padding:.5em;
   font-weight: 700;
-  padding: .5em;
+  display: block;
 
 }
 
 .child-page-sidebar ul li:hover {
 
-  background: green;
+  background: #CBC9CF;
 
 
 }

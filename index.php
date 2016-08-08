@@ -14,6 +14,9 @@
 
     <section>
 
+      <p>
+      Below is a list of past and present projects I’ve either completed or are currently working on. Take a look and see if there’s anything that peaks your interest!
+      </p>
 
 
         <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
