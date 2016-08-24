@@ -897,24 +897,9 @@ width: 100%;
 
 }
 
+/* Begin Mobile Nav Query */
 
-/* Start Mobile Query */
-
-
-
-
-@media all and (min-width: 220px) and (max-width: 668px) {
-
-  .wrapper, section, .homepage-main-content, .homepage-main-content-h3 {
-
-    float: none;
-    width: 100%;
-    margin: 0!important;
-    margin: auto;
-    margin-top: .5em;
-
-
-  }
+@media all and (min-width: 220px) and (max-width: 800px) {
 
   /* Begin Mobile Nav */
 
@@ -975,8 +960,9 @@ width: 100%;
 
   .jquery-title {
 
-    padding: 15px 24px;
-    font-size: 1.125em;
+    padding: 15px 24px 8px;
+    font-size: 1.8em;
+    line-height: 1.2em;
     display: inherit;
 
   }
@@ -985,6 +971,7 @@ width: 100%;
 
     color:#fff !important;
     text-decoration: none;
+    font-family: 'ubuntu_titlingbold';
 
   }
   div.menu-icon {
@@ -1003,6 +990,31 @@ width: 100%;
 
 
     /* End Mobile Nav */
+
+
+
+}
+
+/* End Mobile Nav Query */
+
+/* Start Mobile Query */
+
+
+
+
+@media all and (min-width: 220px) and (max-width: 668px) {
+
+  .wrapper, section, .homepage-main-content, .homepage-main-content-h3 {
+
+    float: none;
+    width: 100%;
+    margin: 0!important;
+    margin: auto;
+    margin-top: .5em;
+
+
+  }
+
 
   .homepage-main-content-inner {
 

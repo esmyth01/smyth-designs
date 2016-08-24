@@ -63,11 +63,11 @@ window.onload = function() {
 
   jQuery(window).resize(function(){
 
-    if (jQuery(window).width() > 668) {
+    if (jQuery(window).width() > 800) {
       jQuery(".menu-main-container").css('display', 'block');
     }
 
-    if (jQuery(window).width() < 668) {
+    if (jQuery(window).width() < 800) {
       jQuery(".menu-main-container").css('display', 'none');
     }
   });
