@@ -9,6 +9,7 @@ Version: 1.0
 */
 
 
+
 * {
 
   padding: 0;
@@ -61,6 +62,7 @@ font-family: 'ubuntu_titlingbold';
 img {
 
   max-width:100%;
+  height: auto;
 
 }
 
@@ -205,7 +207,7 @@ div.menu-main-container {
 #menu-main > li a:hover {
 
   color: #2995C1!important;
-  
+
 
 }
 
@@ -310,6 +312,8 @@ section p:first-of-type {
 margin-bottom: 4em;
 
 }
+
+
 
 .homepage-main-content {
 
@@ -468,7 +472,12 @@ color: #1D4272;
   float: left;
 }
 
+.photo-title {
 
+  text-shadow: 2px 2px 3px #8C94A1;
+  text-align: center;
+
+}
 
 
 /*End Page main content*/
@@ -1039,6 +1048,10 @@ width: 100%;
     margin: auto;
   }
 
+.gallery-item {
+
+  width: 50%!important;
+}
 
 
 
