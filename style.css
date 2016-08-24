@@ -310,9 +310,31 @@ section {
 
 section p:first-of-type {
 margin-bottom: 4em;
+margin-top: 1em;
+
+}
+/*Start flexslider override*/
+
+.recent-post-slider.design-2 .post-content-left {
+
+    left: inherit!important;
+    right: 0;
 
 }
 
+
+.recent-post-slider .recentpost-categories ul.post-categories li:nth-child(1) a {
+
+    background: #2995C1!important;
+    border-radius: 10px;
+}
+
+
+.recent-post-slider .wp-post-date::after {
+    background: #2995C1!important;
+  }
+
+/* End flexslider override */
 
 
 .homepage-main-content {
@@ -867,7 +889,7 @@ height: 100%;
 
 .main-content {
 
-  padding: 0 1em;
+
   width: 100%;
 
 }
@@ -875,6 +897,12 @@ height: 100%;
 section {
 
   width: 100%;
+
+}
+section p {
+
+  width: 98%;
+  margin: auto;
 
 }
 
@@ -886,7 +914,8 @@ section {
 
 .homepage-main-content {
 
-width: 100%;
+width: 98%;
+margin-left: 1%;
 
 
 }
@@ -990,7 +1019,14 @@ width: 100%;
 
 
     /* End Mobile Nav */
+.flexslider {
 
+  width: 98%;
+  margin: auto;
+  margin-top: 1em;
+  border: 3px solid #8C94A1;
+
+}
 
 
 }
