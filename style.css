@@ -37,7 +37,7 @@ p {
 
 h3 {
 
-  font-family: 'trade_windsregular';
+  font-family: 'jelleebold';
 
 }
 
@@ -109,6 +109,17 @@ margin-bottom: 1em;
 color: #1D4272;
 }
 /*Begin Fonts*/
+
+@font-face {
+    font-family: 'jelleebold';
+    src: url('fonts/jellee-roman-kit/jellee-roman-webfont.woff2') format('woff2'),
+         url('fonts/jellee-roman-kit/jellee-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 @font-face {
     font-family: 'trade_windsregular';
@@ -364,7 +375,6 @@ margin-bottom: 1em;
 
   width: 100%;
   text-align: center;
-  color: #1D4272;
   margin: .5em 0 1em;
 
 }
@@ -373,7 +383,22 @@ margin-bottom: 1em;
 
 text-decoration: underline;
 
+
 }
+
+.homepage-main-content-h3 a {
+
+color: #1D4272;
+
+}
+
+
+.homepage-main-content-h3 a:hover {
+
+color: #2995C1;
+
+}
+
 
 .homepage-main-content-inner {
 
@@ -638,6 +663,12 @@ margin: .7em 0;
 
   text-decoration: none;
   color: #1D4272;
+
+}
+
+.homepage-sidebar-photography h3 a:hover {
+
+color: #2995C1;
 
 }
 

@@ -137,6 +137,8 @@ return $string;
  }
 
 
-
+ //websites category function
+ $category_websites_link = get_category_link(4);
+ $category_research_link = get_category_link(6);
 
    ?>

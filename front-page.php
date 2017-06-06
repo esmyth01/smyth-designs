@@ -94,7 +94,7 @@
 
       <div class="homepage-main-content">
 
-<div class="homepage-main-content-h3"><h3>Websites</h3></div>
+<div class="homepage-main-content-h3"><h3><a href="<?php echo esc_url( $category_websites_link ); ?>" title="Websites">Websites</a></h3></div>
         <div class="homepage-main-content-inner">
           <?php $query = new WP_Query( array( "category_name" => "websites", "post_type" => "post", "posts_per_page" => 1));  ?>
 
@@ -124,7 +124,7 @@
 
       <div class="homepage-main-content">
 
-        <div class="homepage-main-content-h3"><h3>Design</h3></div>
+        <div class="homepage-main-content-h3"><h3><a href="<?php echo get_permalink( get_page_by_path( 'design' ) ) ?>">Design</a></h3></div>
 
         <div class="homepage-main-content-inner">
 
@@ -162,7 +162,7 @@
 
       <div class="homepage-main-content">
 
-        <div class="homepage-main-content-h3"><h3>Development</h3></div>
+        <div class="homepage-main-content-h3"><h3><a href="<?php echo get_permalink( get_page_by_path( 'development' ) ) ?>">Development</a></h3></div>
 
         <div class="homepage-main-content-inner">
 
@@ -203,7 +203,7 @@
 
       <div class="homepage-main-content">
 
-        <div class="homepage-main-content-h3"><h3>Research</h3></div>
+        <div class="homepage-main-content-h3"><h3><a href="<?php echo esc_url( $category_research_link ); ?>" title="Research">Research</a></h3></div>
 
         <div class="homepage-main-content-inner">
 

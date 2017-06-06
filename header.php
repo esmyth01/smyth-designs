@@ -27,7 +27,7 @@
 
 
 <header>
-<img src="<?php bloginfo('template_url'); ?>/images/logo(final).png">
+<a href="http://www.smythdesigns.com"><img src="<?php bloginfo('template_url'); ?>/images/new-logo-final2.png"></a>
 
 </header>
 
